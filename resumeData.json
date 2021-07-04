@@ -1,0 +1,189 @@
+{
+  "main": {
+    "name": "Daryl Lim",
+    "headline": "Daryl Lim",
+    "blurb": "Final year Computer Engineering student at Imperial College London.",
+    "occupation": "undergraduate student",
+    "description": "Insert description here",
+    "image": "profilepic.jpg",
+    "bio": "I've spent the earlier years of my life in Hong Kong and Singapore, and currently I'm based in London pursuing an integrated Masters degree in Computer Engineering. I'm an aspiring software engineer with an interest in distributed systems, cloud computing, and machine learning. At the moment, I am undertaking a 6-month software engineering placement with Xilinx on the Onload team. Outside of work, I enjoy reading, learning new skills, and going to the gym.",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "daryllimyt@gmail.com",
+    "phone": "+44 7427 611167",
+    "address": {
+      "country": "United Kingdom",
+      "city": "London",
+      "street": "(Your Street)",
+      "state": "(Your State)",
+      "zip": "(Your Zip/Postal Code)"
+    },
+    "website": "",
+    "resumedownload": "https://docdro.id/JIObEaN",
+    "social": [
+      {
+        "name": "linkedin",
+        "url": "http://linkedin.com/in/daryllimyt",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/daryllimyt",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "work": [
+      {
+        "company": "Xilinx",
+        "title": "Software Engineering Intern, Onload Team ",
+        "years": "Apr 2021 - Present",
+        "description": "Implemented and extended features for team's Jenkins CI/CD monitoring service. Designed and implemented a REST API on top of the legacy testing and benchmark logging database. Contributed to the development of TCPDirect."
+      },
+      {
+        "company": "Imperial College London",
+        "title": "Undergraduate Teaching Assistant, EE Department ",
+        "years": "Sep 2020 - Mar 2021",
+        "description": "Conducted teaching for first-year programming module covering Object-Oriented Programming, Data Structures, and Algorithms in C++."
+      },
+      {
+        "company": "United Overseas Bank Singapore",
+        "title": "Summer Intern, Channels and Digitalization Group",
+        "years": "Jul 2019 - Sep 2019",
+        "description": "Automated data workflows for monthly regional and branch KPI reporting using Python with Pandas and NumPy libraries."
+      },
+      {
+        "company": "Singapore Civil Defence Force",
+        "title": "Sergeant, Firefighting Section Commander",
+        "years": "Oct 2016 - Aug 2018",
+        "description": "Mandatory National Service for Singaporean citizens."
+      }
+    ],
+    "education": [
+      {
+        "school": "Imperial College London",
+        "degree": "MEng Electronic and Information Engineering (Computer Engineering)",
+        "graduated": "Sep 2018 - Present",
+        "description": "Expected graduation in July 2022 with First-Class Honours. Placed on the Dean's List in first and second years."
+      },
+      {
+        "school": "Chinese International School Hong Kong",
+        "degree": "International Baccalaureate Diploma",
+        "graduated": "Aug 2014 - May 2016",
+        "description": "Graduated in May 2016 with 777 in HL Mathematics, Physics, and Economics."
+      }
+    ],
+    "skillmessage": "The following is a non-exhaustive list of my skills.",
+    "skills": [
+      {
+        "name": "C/C++",
+        "level": "70%"
+      },
+      {
+        "name": "Python",
+        "level": "90%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "50%"
+      },
+      {
+        "name": "Git",
+        "level": "90%"
+      },
+      {
+        "name": "Jenkins",
+        "level": "60%"
+      },
+      {
+        "name": "Podman/Docker",
+        "level": "50%"
+      },
+      {
+        "name": "Prometheus",
+        "level": "70%"
+      }
+    ]
+  },
+  "portfolio": {
+    "head": "Here are some of my past projects.",
+    "projects": [
+      {
+        "title": "Simple MultiPaxos Banking Service",
+        "description": "This project was coursework from my Distributed Algorithms course at Imperial, in which I developed a simple replicated banking service that implements the Multi-Paxos consensus algorithm. This is a classic algorithm that solves consensus in a network of unreliable or failable nodes. This project is an Elixir implementation of systems, components, and algorithms described in the paper 'Paxos Made Moderately Complex'.",
+        "tools": [
+          "Elixir"
+        ],
+        "image": "bank.jpg",
+        "url": "https://github.com/daryllimyt/multipaxos-elixir"
+      },
+      {
+        "title": "Wave, a mobile app",
+        "description": "In Summer 2020, my internship with Yelp was cancelled due to COVID19. I began building a mobile app with my course mate which facilitates seamless contact exchange between 2 smartphones. I designed and developed the cross platform BLE P2P data exchange protocol, which used both an internet connection with WebSockets and direct Bluetooth connections. The project was put on hold after September 2020.",
+        "tools": [
+          "IoT",
+          "BLE",
+           "JavaScipt", 
+           "React Native",
+           "Node.js"
+        ],
+        "image": "mobile.jpg",
+        "url": null
+      },
+      {
+        "title": "Facebook Hack-a-Project 2020",
+        "description": "In February 2020, I was selected to attend Hack-a-Project, which is Facebook's Hackathon for UK students that consists of a few weeks of seminars and a hackathon. My team built a simple web application that enabled users to post movie screenings for other users to join. I led the pitch during the presentations and it was well received by the panel, coming in 2nd place overall. ",
+        "tools": [
+          "JavaScipt",
+          "React",
+          "Node.js"
+        ],
+        "image": "fb2.jpg",
+        "url": "https://github.com/daryllimyt/FB-hack-a-project-team-4"
+      },
+      {
+        "title": "C Compilter",
+        "description": "This project was coursework from my Language Processors course, in which I was tasked to build a C-to-MIPS and C-to-Python compiler using C++. I used YACC and Bison for the lexing (tokenization) and parsing stages to generate an intermediate representation of the code, and ultimately an Abstract Syntax Tree. This tree was then traversed to generate the output code.",
+        "tools": [
+          "C++"
+        ],
+        "image": "compiler6.jpg",
+        "url": "https://github.com/daryllimyt/C-Compiler"
+      },
+      {
+        "title": "MIPS CPU Simulator",
+        "description": "This project was coursework from my Computer Architecture course, in which I developed a MIPS1 CPU simulator using C++. This simulator took in MIP1 assmebly code and executed the instructions in a simulated memory map.",
+        "tools": [
+          "C++"
+        ],
+        "image": "cpu2.jpg",
+        "url": "https://github.com/daryllimyt/MIPS-CPU-Simulator"
+      },
+      {
+        "title": "Body Break, a physical coordination training game",
+        "description": "This game was my first year project in which my team was tasked to use an FPGA for real time image processing. The player wears colored bands on their head, wrists, and ankles to find a hidden pose on the screen by bringing all bands within a certain distance of their respective preset targets. Visual indicators on the screen (circles with varying radii) would guide the player to finding the pose.",
+        "tools": [
+          "C",
+          "FPGA",
+          "Vivado HLS",
+          "Python",
+          "JupyterNB"
+        ],
+        "image": "yoga3.jpg",
+        "url": "https://youtu.be/wzZH6Vlmdbw"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
